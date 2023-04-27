@@ -1,0 +1,43 @@
+span {
+    display: none;
+}
+
+.input {
+    width: 500px;
+}
+
+.btnRefrescar {
+    margin-left: 50%;
+}
+
+.contenedor {
+    display: flex;
+    margin: 3rem 0px;
+}
+
+.rowTable {
+    background: gray;
+}
+
+.pagination {
+    margin-bottom: 2rem;
+}
+
+.pagination::after {
+    display: none;
+}
+
+.active {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
